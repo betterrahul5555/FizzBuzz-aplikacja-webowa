@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+    <div class="text-center">
+        <h1 class="display-4">
+        @if (Model.Address != null && Model.Address.Liczba >= 1 && Model.Address.Liczba <= 1000 )
+         {
+             @Model.Address.check()
+
+        }
+        
+
+        </h1>
+
+
+        <form method="post">
+            <label asp-for="Address.Liczba"></label>
+            <input asp-for="Address.Liczba" /><br />
+            <d
+
+            <span asp-validation-for="Address.Liczba" class="text-danger"></span>
+            <button type="submit">Zatwierdź</button>
+        </form>
+           
+
+        </div>

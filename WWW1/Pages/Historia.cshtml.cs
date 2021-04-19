@@ -14,6 +14,9 @@ namespace WWW1.Pages
     {
 
         FizzContext fizzContext;
+        [BindProperty]
+        public int ID { get; set; }
+
         public HistoriaModel(FizzContext fizz)
         {
             fizzContext = fizz;
@@ -22,6 +25,14 @@ namespace WWW1.Pages
         public void OnGet()
         {
              historia=fizzContext.Czas.Take(10).OrderByDescending(o=>o.Dataa);
+
+        }
+        public IActionResult OnPost()//po usunieciu  wraca do get (profesionala wersja)
+        {
+            fizzContext.Remove(new Czas() { Id = ID });
+            fizzContext.SaveChanges();
+            
+            return RedirectToPage();
 
         }
     }

@@ -5,12 +5,23 @@
 }
 
 <h1>Historia</h1>
+@if (Model.historia!=null && Model.historia.Count() != 0) {
 @foreach (var item in Model.historia)
 {
-<p>
-    @item.Id,&nbsp; @item.Number &nbsp;@item.Dataa &nbsp;@item.St
+    <p>
+        @item.Id,&nbsp; @item.Number &nbsp;@item.Dataa &nbsp;@item.St
+    </p>
+
+        <form method="POST">
+            <input type="hidden" asp-for="ID" value=@item.Id/>
+            <input type="submit" value="Usuń" class="btn btn-danger" /> |
+            <a asp-page="./Index">Wróć do Historii</a>
+        </form>}
+    }
 
 
-</p>
+
+
+
 }
 

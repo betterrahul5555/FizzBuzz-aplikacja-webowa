@@ -1,0 +1,16 @@
+﻿@page
+@model WWW1.Pages.HistoriaModel
+@{
+    ViewData["Title"] = "Historia";
+}
+
+<h1>Historia</h1>
+@foreach (var item in Model.historia)
+{
+<p>
+    @item.Id,&nbsp; @item.Number &nbsp;@item.Dataa &nbsp;@item.St
+
+
+</p>
+}
+

@@ -257,3 +257,4 @@ C:\Users\Janek\source\repos\FizzBuzz-aplikacja-webowa\WWW1\bin\Debug\netcoreapp3
 C:\Users\Janek\source\repos\FizzBuzz-aplikacja-webowa\WWW1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Janek\source\repos\FizzBuzz-aplikacja-webowa\WWW1\obj\Debug\netcoreapp3.1\WWW1.csproj.CoreCompileInputs.cache
 C:\Users\Janek\source\repos\FizzBuzz-aplikacja-webowa\WWW1\obj\Debug\netcoreapp3.1\WWW1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Janek\source\repos\FizzBuzz-aplikacja-webowa\WWW1\obj\Debug\netcoreapp3.1\Razor\Pages\Historia.cshtml.g.cs

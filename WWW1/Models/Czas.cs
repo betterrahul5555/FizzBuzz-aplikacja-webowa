@@ -10,10 +10,14 @@ namespace WWW1.Models
     {
 
         [Range(1, 1000, ErrorMessage = "Podano złe dane")]
+        
         public int Number { get; set; }
         public string St { get; set; }
        
-            public DateTime Dataa { get; set; }
+        public DateTime Dataa { get; set; }
+        public int Id { get; set; }
+        
+
 
     }
 

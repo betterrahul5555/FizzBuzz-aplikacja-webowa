@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Janek\\source\\repos\\WWW1\\WWW1.csproj": {}
+    "C:\\Users\\Janek\\source\\repos\\FizzBuzz-aplikacja-webowa\\WWW1\\WWW1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Janek\\source\\repos\\WWW1\\WWW1.csproj": {
+    "C:\\Users\\Janek\\source\\repos\\FizzBuzz-aplikacja-webowa\\WWW1\\WWW1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Janek\\source\\repos\\WWW1\\WWW1.csproj",
+        "projectUniqueName": "C:\\Users\\Janek\\source\\repos\\FizzBuzz-aplikacja-webowa\\WWW1\\WWW1.csproj",
         "projectName": "WWW1",
-        "projectPath": "C:\\Users\\Janek\\source\\repos\\WWW1\\WWW1.csproj",
+        "projectPath": "C:\\Users\\Janek\\source\\repos\\FizzBuzz-aplikacja-webowa\\WWW1\\WWW1.csproj",
         "packagesPath": "C:\\Users\\Janek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Janek\\source\\repos\\WWW1\\obj\\",
+        "outputPath": "C:\\Users\\Janek\\source\\repos\\FizzBuzz-aplikacja-webowa\\WWW1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Janek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,22 @@
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.13, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

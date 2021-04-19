@@ -9,10 +9,6 @@ namespace WWW1.Models
     public class Address
     {
         [Display(Name = "Podaj liczbę")]
-
-       
-        
-        
         [Range(1,1000,  ErrorMessage ="Podano złe dane" )]
         [Required(ErrorMessage= "Pole jest obowiazkowe")]
         public int Liczba { get; set; }
